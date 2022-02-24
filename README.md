@@ -3,7 +3,7 @@ APP UrlShortner
 
 ## Objetivo
 
-Gerar urls mais curtos para website e quando acessados redireciona-los para os urls originais.
+Gerar urls mais curtos para websites e quando acessados redireciona-los para os urls originais.
 
 ### Instalando
 
@@ -14,8 +14,9 @@ $ npm i
 
 ### Configurando
 
-Apenas configure o banco de dados corretamente e garanta que a tabela foi criada corretamente:
+Configure o banco de dados corretamente e garanta que a tabela foi criada corretamente:
 
+Aplicação utilizando Mongodb Cluster.
 
 Edite as configurações do banco no arquivo `./src/database/database.js`.
 
