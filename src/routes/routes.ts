@@ -7,6 +7,4 @@ router.post("/shorten", new URLController().shorten)
 router.get("/shorten", new URLController().findAllUrls)
 router.get("/:hash", new URLController().redirect)
 
-
-
 export { router }

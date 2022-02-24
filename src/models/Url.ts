@@ -1,6 +1,7 @@
 import { prop, Typegoose } from "typegoose";
 
 class Url extends Typegoose {
+  
   @prop({ required: true })
   originURL: string
 

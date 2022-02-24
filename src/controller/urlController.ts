@@ -1,6 +1,8 @@
 import { Request, Response } from "express"
 import { nanoid } from "nanoid"
 import { UrlService } from "../services/urlServices"
+
+
 class URLController{
 
     async shorten(req: Request, res: Response){

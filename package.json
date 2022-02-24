@@ -1,7 +1,7 @@
 {
   "name": "url-shotner",
   "version": "1.0.0",
-  "description": "",
+  "description": "url-shotner",
   "main": "app.ts",
   "scripts": {
     "dev": "ts-node-dev src/app.ts"

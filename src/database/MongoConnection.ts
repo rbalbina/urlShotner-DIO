@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 class MongoConnection{
+    
     async connect(){
         
         try{
